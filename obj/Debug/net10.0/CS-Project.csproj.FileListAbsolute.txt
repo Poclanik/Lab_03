@@ -1,0 +1,14 @@
+D:\soft_volg\Git\CS-Project\bin\Debug\net10.0\CS-Project.exe
+D:\soft_volg\Git\CS-Project\bin\Debug\net10.0\CS-Project.deps.json
+D:\soft_volg\Git\CS-Project\bin\Debug\net10.0\CS-Project.runtimeconfig.json
+D:\soft_volg\Git\CS-Project\bin\Debug\net10.0\CS-Project.dll
+D:\soft_volg\Git\CS-Project\bin\Debug\net10.0\CS-Project.pdb
+D:\soft_volg\Git\CS-Project\obj\Debug\net10.0\CS-Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\soft_volg\Git\CS-Project\obj\Debug\net10.0\CS-Project.AssemblyInfoInputs.cache
+D:\soft_volg\Git\CS-Project\obj\Debug\net10.0\CS-Project.AssemblyInfo.cs
+D:\soft_volg\Git\CS-Project\obj\Debug\net10.0\CS-Project.csproj.CoreCompileInputs.cache
+D:\soft_volg\Git\CS-Project\obj\Debug\net10.0\CS-Project.dll
+D:\soft_volg\Git\CS-Project\obj\Debug\net10.0\refint\CS-Project.dll
+D:\soft_volg\Git\CS-Project\obj\Debug\net10.0\CS-Project.pdb
+D:\soft_volg\Git\CS-Project\obj\Debug\net10.0\CS-Project.genruntimeconfig.cache
+D:\soft_volg\Git\CS-Project\obj\Debug\net10.0\ref\CS-Project.dll
