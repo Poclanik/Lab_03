@@ -99,32 +99,36 @@
 //Console.WriteLine($"5 > 3 && 2 < 4 || false = {logicResult}");
 //Console.WriteLine($"(5 > 3 && 2 < 4) || false = {logicResultParens}");
 
-Console.WriteLine();
-Console.WriteLine("Приёмная комиссия");
+//Console.WriteLine();
+//Console.WriteLine("Приёмная комиссия");
+//
+//Console.WriteLine("Введите средний балл аттестата:");
+//double averageGrade = double.Parse(Console.ReadLine());
+//
+//Console.Write("Введите баллы за экзамен (0-100):");
+//int examCore = int.Parse(Console.ReadLine());
+//
+//Console.Write("Есть льгота? (1 - да, 0 - нет): ");
+//int beneffitInput = int.Parse(Console.ReadLine());
+//bool hasBenefit = (beneffitInput == 1);
+//
+//bool hasGoodCertificate = averageGrade >= 4.0 ? true : false;
+//
+//bool hasGoodExam = examCore >= 60 ? true : false;
+//
+//bool isEligibleByRules = (hasGoodCertificate && hasGoodExam) || hasBenefit ? true : false;
+//
+//double totalScore = averageGrade * 10;
+//totalScore += examCore;
+//
+//Console.WriteLine();
+//Console.WriteLine("Результат");
+//Console.WriteLine($"Хороший аттестат (>= 4.0): {hasGoodCertificate}");
+//Console.WriteLine($"Хороший экзамен(>=60): {hasGoodExam}");
+//Console.WriteLine($"Льгота: {hasBenefit}");
+//Console.WriteLine($"Проходит по правилам: {isEligibleByRules}");
+//Console.WriteLine($"Итоговый балл: {totalScore}");
 
-Console.WriteLine("Введите средний балл аттестата:");
-double averageGrade = double.Parse(Console.ReadLine());
-
-Console.Write("Введите баллы за экзамен (0-100):");
-int examCore = int.Parse(Console.ReadLine());
-
-Console.Write("Есть льгота? (1 - да, 0 - нет): ");
-int beneffitInput = int.Parse(Console.ReadLine());
-bool hasBenefit = (beneffitInput == 1);
-
-bool hasGoodCertificate = averageGrade >= 4.0 ? true : false;
-
-bool hasGoodExam = examCore >= 60 ? true : false;
-
-bool isEligibleByRules = (hasGoodCertificate && hasGoodExam) || hasBenefit ? true : false;
-
-double totalScore = averageGrade * 10;
-totalScore += examCore;
-
-Console.WriteLine();
-Console.WriteLine("Результат");
-Console.WriteLine($"Хороший аттестат (>= 4.0): {hasGoodCertificate}");
-Console.WriteLine($"Хороший экзамен(>=60): {hasGoodExam}");
-Console.WriteLine($"Льгота: {hasBenefit}");
-Console.WriteLine($"Проходит по правилам: {isEligibleByRules}");
-Console.WriteLine($"Итоговый балл: {totalScore}");
+int vvod = int.Parse(Console.ReadLine());
+bool isEven = (vvod % 2) == 0 ? true : false;
+Console.WriteLine(isEven);
