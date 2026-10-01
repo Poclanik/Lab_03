@@ -129,6 +129,32 @@
 //Console.WriteLine($"Проходит по правилам: {isEligibleByRules}");
 //Console.WriteLine($"Итоговый балл: {totalScore}");
 
-int vvod = int.Parse(Console.ReadLine());
-bool isEven = (vvod % 2) == 0 ? true : false;
-Console.WriteLine(isEven);
+//*
+//int vvod = int.Parse(Console.ReadLine());
+//bool isEven = (vvod % 2) == 0 ? true : false;
+//Console.WriteLine(isEven);
+
+//**
+int a = 5;
+int result1 = a++; 
+//Сначала значение 5 записывается в result1, и только потом a становится 6.
+//Итог: result1 = 5, a = 6
+int b = 5;
+int result2 = ++b; 
+// Сначала b увеличивается до 6, и уже это новое значение 6 записывается в result2.
+// Итог: result2 = 6, b = 6
+int x = 10;
+int math1 = 2 * x++; 
+//Для умножения берем старое значение x (10). 2 * 10 = 20. После этого x становится 11.
+//Итог: math1 = 20, x = 11
+int y = 10;
+int math2 = 2 * ++y; 
+//Сначала y увеличивается до 11, а потом участвует в умножении. 2 * 11 = 22.
+//Итог: math2 = 22, y = 11
+int m = 100;
+Console.WriteLine($"Постфикс: {m++}"); 
+//В строку подставляется текущее значение 100. Увеличение до 101 происходит уже после вывода.
+int n = 100;
+Console.WriteLine($"Префикс: {++n}");  
+//Сначала n становится 101, и именно 101 выводится на экран.
+
